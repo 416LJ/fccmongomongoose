@@ -63,7 +63,7 @@ const findOneByFood = (food, done) => {
 
 // find by _id unique id.
 const findPersonById = (personId, done) => {
-  Person.findById({personId}, function(err, data){
+  Person.findById(personId, function(err, data){
     if(err) return console.log(err);
     done(null, data);
   })
