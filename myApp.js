@@ -12,7 +12,9 @@ const personSchema = new Schema({
   favouriteFoods: [String]
 });
 
-const Person = mongoose.model("Person", Schema);
+const Person = mongoose.model("Person", personSchema);
+
+
 
 
 
