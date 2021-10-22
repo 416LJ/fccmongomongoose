@@ -9,12 +9,12 @@ const { Schema } = mongoose;
 const personSchema = new Schema({
   name: {type: String, required: true},
   age: Number,
-  favouriteFoods: [String]
+  favoriteFoods: [String]
 });
 
 const Person = mongoose.model("Person", personSchema);
 
-
+let Person;
 
 
 
