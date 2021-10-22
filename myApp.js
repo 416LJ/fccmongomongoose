@@ -14,7 +14,6 @@ const personSchema = new Schema({
 
 const Person = mongoose.model("Person", personSchema);
 
-let Person;
 
 
 
